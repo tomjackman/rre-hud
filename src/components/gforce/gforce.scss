@@ -5,17 +5,18 @@
 	right: 380px;
 	position: absolute;
 	border-radius: 100%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
 	background: rgba(0, 0, 0, 0.5) url(./../../img/grid.png);
 	transition: background 1s;
 	.point {
 		transform-origin: top left;
-		width: 10px;
-		height: 10px;
+		width: 30px;
+		height: 30px;
+		filter: blur(8px);
 		position: absolute;
 		border-radius: 100%;
 		transform: translate(-50%, -50%);
-		background: #fff;
+		background: #9C27B0;
+		color: white;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 		text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
 		font-size: 10px;
@@ -27,7 +28,7 @@
 		left: 50%;
 		border-radius: 100%;
 		transform: translate(-50%, -50%);
-		border: 2px solid #333;
+		border: 1px solid #3F51B5;
 		&.ring-1 {
 			width: 25%;
 			height: 25%;
@@ -47,8 +48,8 @@
 	}
 
 	.line-horizontal {
-		border-top: 1px solid #444;
-		border-bottom: 1px solid #444;
+		border-top: 1px solid #673AB7;
+		border-bottom: 1px solid #673AB7;
 		position: absolute;
 		width: 50%;
 		top: 50%;
@@ -61,8 +62,8 @@
 		}
 	}
 	.line-vertical {
-		border-left: 1px solid #444;
-		border-right: 1px solid #444;
+		border-left: 1px solid #673AB7;
+		border-right: 1px solid #673AB7;
 		position: absolute;
 		height: 50%;
 		left: 50%;
@@ -94,29 +95,29 @@
 		&.fl {
 			top: 0;
 			left: 0;
-			border-top: 4px solid purple;
-			border-left: 4px solid purple;
+			border-top: 4px solid #9C27B0;
+			border-left: 4px solid #9C27B0;
 			border-radius: 100% 0 0 0;
 		}
 		&.fr {
 			top: 0;
 			right: 0;
-			border-top: 4px solid purple;
-			border-right: 4px solid purple;
+			border-top: 4px solid #9C27B0;
+			border-right: 4px solid #9C27B0;
 			border-radius: 0 100% 0 0;
 		}
 		&.rl {
 			bottom: 0;
 			left: 0;
-			border-bottom: 4px solid purple;
-			border-left: 4px solid purple;
+			border-bottom: 4px solid #9C27B0;
+			border-left: 4px solid #9C27B0;
 			border-radius: 0 0 0 100%;
 		}
 		&.rr {
 			bottom: 0;
 			right: 0;
-			border-bottom: 4px solid purple;
-			border-right: 4px solid purple;
+			border-bottom: 4px solid #9C27B0;
+			border-right: 4px solid #9C27B0;
 			border-radius: 0 0 100% 0;
 		}
 	}

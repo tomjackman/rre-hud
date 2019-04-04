@@ -9,12 +9,11 @@
 	right: 270px;
 	position: absolute;
 	border-radius: 100%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
-	background: rgba(0, 0, 0, 0.5) url(./../../img/grid.png);
+	background: #37474F url(./../../img/grid.png);
 	transition: background 1s;
 	border: 2px solid #333;
 	&.danger {
-		background: rgba(121, 17, 17, 0.5) url(./../../img/grid.png);
+		background: #F44336 url(./../../img/grid.png);
 	}
 	.warning {
 		position: absolute;
@@ -46,7 +45,7 @@
 		width: 10px;
 		height: 20px;
 		position: absolute;
-		border-radius: 3px;
+		border-radius: 13px;
 		transform: translate(-50%, -50%);
 		background: #fff;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

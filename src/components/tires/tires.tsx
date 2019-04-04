@@ -128,9 +128,9 @@ export default class Tires extends React.Component<IProps, {}> {
 
 	private getBrakeColor(temp: IBrakeTemp) {
 		const currentTemp = temp.CurrentTemp;
-		const red = '#990000';
-		const green = '#009900';
-		const blue = '#000099';
+		const red = '#B71C1C';
+		const green = '#00C853';
+		const blue = '#2196F3';
 
 		let fromColor = green;
 		let toColor = green;
@@ -164,9 +164,9 @@ export default class Tires extends React.Component<IProps, {}> {
 
 	private getTireTempColor(temp: ITireTemp) {
 		const currentTemp = temp.CurrentTemp.Center;
-		const red = '#990000';
-		const green = '#009900';
-		const blue = '#000099';
+		const red = '#B71C1C';
+		const green = '#00C853';
+		const blue = '#2196F3';
 
 		let fromColor = green;
 		let toColor = green;

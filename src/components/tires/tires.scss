@@ -1,27 +1,27 @@
 .tires {
 	position: absolute;
 	height: 100px;
-	width: 50px;
+	width: 70px;
 	top: 940px;
 	left: 1750px;
 	margin-right: 10px;
 	.wheel {
 		background: #000;
-		width: 21px;
+		width: 31px;
 		height: 46px;
 		float: left;
 		margin: 2px;
 		position: relative;
-		border-radius: 5px;
+		transform: skew(-25deg);
 
 		.temp {
 			position: absolute;
 			bottom: 100%;
 			margin-bottom: 3px;
 			z-index: 11;
-			font-size: 10px;
+			font-size: 20px;
 			width: 100%;
-			text-align: center;
+			transform: skew(25deg);
 		}
 		&.rearLeft,
 		&.rearRight {
@@ -31,7 +31,7 @@
 				top: 100%;
 				margin-top: 3px;
 				z-index: 11;
-				font-size: 10px;
+				font-size: 20px;
 			}
 		}
 
@@ -52,7 +52,6 @@
 			position: absolute;
 			display: block;
 			content: '';
-			border-radius: 3px;
 			top: 2px;
 			left: 2px;
 			right: 2px;
@@ -65,15 +64,12 @@
 			left: 2px;
 			right: 2px;
 			bottom: 2px;
-			border-radius: 5px;
-			border: 2px solid red;
+			border: 2px solid #FFC400;
 		}
 		.brake {
 			position: absolute;
-			width: 6px;
-			border-radius: 5px;
-			background: grey;
-			border: 1px solid #000;
+			width: 25px;
+			background: #2962ff;
 			top: 10px;
 			bottom: 10px;
 
@@ -93,9 +89,8 @@
 			bottom: 4px;
 			position: absolute;
 			.tireWear {
-				background: #222;
+				background: #263238;
 				border-top: 1px solid #555;
-				border-radius: 2px;
 				position: absolute;
 				bottom: 0;
 				left: 0;

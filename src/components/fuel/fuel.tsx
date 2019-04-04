@@ -60,7 +60,7 @@ export default class Fuel extends React.Component<IProps, {}> {
 							<div
 								className="bar "
 								style={{
-									height: `${(this.fuelLeft /
+									width: `${(this.fuelLeft /
 										this.fuelCapacity) *
 										100}%`
 								}}

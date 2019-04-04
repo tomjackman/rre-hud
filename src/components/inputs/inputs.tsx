@@ -61,17 +61,17 @@ export default class Inputs extends React.Component<IProps, {}> {
 						.enabled
 				})}
 			>
-				{/* Clutch */}
-				<div className="barContainer">
-					{!!this.clutchPedal && (
-						<div
-							className="bar clutchPedal"
-							style={{
-								height: `${this.clutchPedal * 100}%`
-							}}
-						/>
-					)}
-				</div>
+			{/* Throttle */}
+			<div className="barContainer">
+				{!!this.throttlePedal && (
+					<div
+						className="bar throttlePedal"
+						style={{
+							width: `${this.throttlePedal * 100}%`
+						}}
+					/>
+				)}
+			</div>
 
 				{/* Brake */}
 				<div className="barContainer">
@@ -79,19 +79,19 @@ export default class Inputs extends React.Component<IProps, {}> {
 						<div
 							className="bar brakePedal"
 							style={{
-								height: `${this.brakePedal * 100}%`
+								width: `${this.brakePedal * 100}%`
 							}}
 						/>
 					)}
 				</div>
 
-				{/* Throttle */}
+				{/* Clutch */}
 				<div className="barContainer">
-					{!!this.throttlePedal && (
+					{!!this.clutchPedal && (
 						<div
-							className="bar throttlePedal"
+							className="bar clutchPedal"
 							style={{
-								height: `${this.throttlePedal * 100}%`
+								width: `${this.clutchPedal * 100}%`
 							}}
 						/>
 					)}

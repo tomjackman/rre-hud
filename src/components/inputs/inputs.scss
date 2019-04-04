@@ -1,60 +1,53 @@
 .inputs {
-	background: red;
 	padding: 5px;
-	background: rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
 	height: 100px;
 	position: absolute;
 	top: 940px;
 	left: 1690px;
 	margin-right: 70px;
-	border-radius: 5px;
 	width: 46px;
 	&.low {
-		background: rgba(255, 0, 0, 0.7);
+		background: rgba(255, 0, 0, 0.2);
 	}
 	.barContainer {
-		background: rgba(0, 0, 0, 0.5);
-		height: 100%;
-		margin: 0 1px;
-		width: 10px;
+		background: white;
+		height: 15px;
+		width: 100px;
 		display: inline-block;
 		position: relative;
-		border-radius: 5px;
-		border: 1px solid rgba(255, 255, 255, 0.15);
+		transform: skew(-25deg);
 		.bar {
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			right: 0;
-			border-radius: 5px;
-			border: 1px solid rgba(0, 0, 0, 0.6);
+			background-color: #C62828;
+			height: 100%;
+			width: 100%;
 		}
 		.clutchPedal {
-			background: #aaa;
+			background: #03A9F4;
 		}
 		.brakePedal {
-			background: red;
+			background: #C62828;
 		}
 		.throttlePedal {
-			background: green;
+			background: #00C853;
 		}
 	}
 	&.hasWheel {
-		height: 60px;
+		height: 100px;
 		.steeringWheel {
 			position: absolute;
-			top: 100%;
-			left: 3px;
-			transform-origin: 19px 19px;
+			top: 10%;
+			left: -100px;
+			transform-origin: 35px 35px;
 			margin-top: 5px;
-			background: rgba(0, 0, 0, 0.5);
 			border-radius: 100%;
-
 			svg {
 				margin: -4px -4px -5px;
 				transform-origin: top left;
-				width: 46px;
+				width: 80px;
 				fill: rgb(255, 255, 255);
 			}
 		}

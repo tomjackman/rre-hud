@@ -14,7 +14,7 @@
 		left: 50%;
 		transform: translate(-50%, 0);
 		right: 0;
-		background: rgba(0, 0, 0, 0.3);
+		background: #263238;
 		white-space: pre;
 		bottom: 0;
 		white-space: nowrap;
@@ -46,8 +46,8 @@
 			position: relative;
 			display: inline-block;
 			.position {
-				background: rgba(0, 0, 0, 0.15);
-				color: #fff;
+				background: #00C853;
+				color: black;
 				width: 25px;
 				position: absolute;
 				top: 0;
@@ -56,6 +56,7 @@
 				left: 0;
 				text-align: center;
 				font-weight: bold;
+				transform: skew(-15deg);
 			}
 			.name {
 				position: absolute;
@@ -172,17 +173,17 @@
 		text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 
 		&.lapping {
-			color: #5997b0;
+			color: #03A9F4;
 		}
 		&.sameLap {
 			color: #fff;
 		}
 		&.lapped {
-			color: #b03a4a;
+			color: #F44336;
 		}
 
 		&.isUser {
-			background: rgba(0, 0, 0, 0.6);
+			background: #546E7A;
 			color: rgb(255, 253, 142);
 		}
 		.classStyle {

@@ -1,6 +1,5 @@
 declare const styles: {
   readonly "fuel": string;
-  readonly "low": string;
   readonly "barContainer": string;
   readonly "bar": string;
   readonly "hasWheel": string;
