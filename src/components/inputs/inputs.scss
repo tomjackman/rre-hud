@@ -16,12 +16,14 @@
 		display: inline-block;
 		position: relative;
 		transform: skew(-25deg);
+		font-size: 15px;
+		color: black;
 		.bar {
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			right: 0;
-			background-color: #C62828;
+			background-color: red;
 			height: 100%;
 			width: 100%;
 		}
@@ -29,7 +31,7 @@
 			background: #03A9F4;
 		}
 		.brakePedal {
-			background: #C62828;
+			background: red;
 		}
 		.throttlePedal {
 			background: #00C853;

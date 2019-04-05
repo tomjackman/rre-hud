@@ -62,7 +62,7 @@ export default class Inputs extends React.Component<IProps, {}> {
 				})}
 			>
 			{/* Throttle */}
-			<div className="barContainer">
+			<div className="barContainer"> Throttle
 				{!!this.throttlePedal && (
 					<div
 						className="bar throttlePedal"
@@ -74,7 +74,7 @@ export default class Inputs extends React.Component<IProps, {}> {
 			</div>
 
 				{/* Brake */}
-				<div className="barContainer">
+				<div className="barContainer"> Brake
 					{!!this.brakePedal && (
 						<div
 							className="bar brakePedal"
@@ -86,7 +86,7 @@ export default class Inputs extends React.Component<IProps, {}> {
 				</div>
 
 				{/* Clutch */}
-				<div className="barContainer">
+				<div className="barContainer"> Clutch
 					{!!this.clutchPedal && (
 						<div
 							className="bar clutchPedal"

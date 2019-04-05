@@ -7,7 +7,7 @@
 	margin-right: 70px;
 	width: 200px;
 	.barContainer {
-		background: #F44336;
+		background: red;
 		height: 30px;
 		width: 100%;
 		display: inline-block;
@@ -19,7 +19,7 @@
 			left: 0;
 			right: 0;
 			width: 100%;
-			background: #00C853;
+			background: #00E676;
 			&:after {
 				position: relative;
 				display: block;
@@ -90,7 +90,7 @@
 	}
 	.fuelLeft {
 		color: white;
-		background-color: #FF5722;
+		background-color: black;
 		bottom: 5px;
 		left: 93px;
 	}
