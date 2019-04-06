@@ -1,4 +1,5 @@
 .motec {
+	border-radius: 50px;
 	display: none;
 	&.shouldShow {
 		display: block;
@@ -7,27 +8,30 @@
 	bottom: 40px;
 	right: 20px;
 	padding: 10px;
-	background: #263238;
+	background: black;
 	width: 85px;
-	height: 100px;
+	height: 80px;
 	transform-origin: bottom right;
+	border-bottom: 20px solid red;
 	.speed {
 		position: absolute;
 		font-size: 20px;
-		bottom: 10px;
+		bottom: -19px;
 		position: absolute;
 		left: 50%;
-		color: #FFC107;
+		color: white;
+		border-radius: 200px;
+		width: 85px;
+		text-align: center;
 		transform: translate(-50%, 0);
 	}
 	.rpm {
 		position: absolute;
-		bottom: -15px;
-		left: -3px;
+		bottom: -40px;
+		left: 1px;
 		right: 3px;
 		width: 85px;
 		background: white;
-		transform: skew(-20deg);
 		.rpmBar {
 			background: red;
 			height: 15px;
@@ -50,12 +54,11 @@
 		}
 	}
 	.gear {
-
-		font-size: 65px;
+		font-size: 55px;
 		position: absolute;
 		left: 50%;
 		transform: translate(-50%, 0);
-		color: red;
+		color: white;
 		top: 1px;
 		line-height: 1;
 	}

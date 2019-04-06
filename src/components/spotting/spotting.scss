@@ -9,11 +9,11 @@
 	right: 270px;
 	position: absolute;
 	border-radius: 100%;
-	background: #37474F url(./../../img/grid.png);
+	background: black url(./../../img/grid.png);
 	transition: background 1s;
 	border: 2px solid #333;
 	&.danger {
-		background: #F44336 url(./../../img/grid.png);
+		background: rgba(121, 17, 17, 0.8) url(./../../img/grid.png);
 	}
 	.warning {
 		position: absolute;

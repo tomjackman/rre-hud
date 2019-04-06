@@ -117,12 +117,22 @@
 	}
 	.sessionTime,
 	.currentLap {
-		right: 10px;
-		background: red;
+		right: 0px;
+		top: 43px;
+		background: white;
+		color: black;
+		border-top: 2px solid red;
+		border-bottom-left-radius: 5px;
+		padding: 5px;
 	}
 	.currentPosition {
-		left: 10px;
-		background: red;
+		left: 0px;
+		top: 43px;
+		background: white;
+		color: black;
+		border-top: 2px solid red;
+		border-bottom-right-radius: 5px;
+		padding: 5px;
 	}
 }
 
@@ -174,15 +184,15 @@
 		}
 
 		&.lapping {
-			background-color: white;
+			background-color: black;
 			color: #03A9F4;
 		}
 		&.sameLap {
-			background-color: white;
-			color: black;
+			background-color: black;
+			color: white;
 		}
 		&.lapped {
-			background-color: white;
+			background-color: black;
 			color: red;
 		}
 

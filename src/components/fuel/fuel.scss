@@ -12,7 +12,7 @@
 		width: 100%;
 		display: inline-block;
 		position: relative;
-		transform: skew(-25deg);
+		transform: skew(-20deg);
 		.bar {
 			position: absolute;
 			bottom: 0;
@@ -81,10 +81,11 @@
 		height: 15px;
 		line-height: 15px;
 		width: 20px;
-		transform: skew(-25deg);
+		transform: skew(-20deg);
 	}
 	.fuelPerLap {
-		background-color: #2196F3;
+		background-color: white;
+		color: black;
 		top: 15px;
 		left: -14px;
 	}

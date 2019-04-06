@@ -5,7 +5,7 @@
 		left: 910px;
 		text-align: center;
 		padding: 5px 10px;
-		background: rgba(0, 0, 0, 0.5);
+		background: black;
 		width: 95px;
 		border-radius: 7px;
 		transform-origin: bottom right;
@@ -72,7 +72,7 @@
 		}
 		.waitTimeLeft {
 			.bar {
-				background: rgba(121, 0, 0, 0.8);
+				background: red;
 			}
 		}
 	}
