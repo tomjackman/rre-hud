@@ -127,7 +127,7 @@ export default class Graphs extends React.Component<IProps, {}> {
 			tracker.ctx.shadowOffsetY = 2;
 			tracker.ctx.shadowBlur = 1;
 
-			tracker.ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+			tracker.ctx.strokeStyle = '#03A9F4';
 			tracker.ctx.lineWidth = 1;
 			tracker.ctx.lineJoin = 'round';
 			tracker.ctx.lineCap = 'round';
@@ -157,7 +157,7 @@ export default class Graphs extends React.Component<IProps, {}> {
 			const shortPath = pathParts.slice(-2).join('.');
 			// Title
 			tracker.ctx.textAlign = 'start';
-			tracker.ctx.fillStyle = '#ffa';
+			tracker.ctx.fillStyle = '#fff';
 			tracker.ctx.fillText(`${shortPath}: ${formatedValue}`, 10, 10);
 			tracker.ctx.fillStyle = '#fff';
 

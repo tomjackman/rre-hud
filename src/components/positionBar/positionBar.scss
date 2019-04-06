@@ -118,9 +118,11 @@
 	.sessionTime,
 	.currentLap {
 		right: 10px;
+		background: red;
 	}
 	.currentPosition {
 		left: 10px;
+		background: red;
 	}
 }
 
@@ -131,10 +133,10 @@
 	width: 290px;
 	transform-origin: bottom right;
 	.player {
-		padding: 4px 0px;
+		padding: 5px 0px;
 		position: relative;
 		white-space: nowrap;
-		transform: skew(-25deg);
+		transform: skew(-20deg);
 		background: white;
 		margin: 3px;
 		font-size: 20px;
@@ -148,7 +150,7 @@
 			padding-bottom: 5px;
 		}
 		.position {
-			width: 35px;
+			width: 40px;
 			font-weight: bold;
 			text-align: center;
 			display: inline-block;
@@ -172,16 +174,16 @@
 		}
 
 		&.lapping {
-			background-color: #03A9F4;
-			color: white;
+			background-color: white;
+			color: #03A9F4;
 		}
 		&.sameLap {
 			background-color: white;
 			color: black;
 		}
 		&.lapped {
-			background-color: red;
-			color: white;
+			background-color: white;
+			color: red;
 		}
 
 		&.isUser {

@@ -27,9 +27,9 @@
 		right: 3px;
 		width: 85px;
 		background: white;
-		transform: skew(-25deg);
+		transform: skew(-20deg);
 		.rpmBar {
-			background: #EF5350;
+			background: red;
 			height: 15px;
 		}
 	}
@@ -43,10 +43,10 @@
 	}
 	&.rmpMaxed {
 		.rpm .rpmBar {
-			background: #C62828;
+			background: red;
 		}
 		.gear {
-			color: #C62828;
+			color: red;
 		}
 	}
 	.gear {
@@ -55,7 +55,7 @@
 		position: absolute;
 		left: 50%;
 		transform: translate(-50%, 0);
-		color: #C62828;
+		color: red;
 		top: 1px;
 		line-height: 1;
 	}

@@ -2,7 +2,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.9);
 	z-index: 1;
 	min-width: 312px;
 	max-width: 624px;
@@ -21,7 +21,7 @@
 	}
 	cursor: pointer;
 	canvas {
-		border: 1px solid rgba(255, 255, 255, 0.1);
+		border: 1px solid #03A9F4;
 		margin: 0 2.5px;
 	}
 	.selection {
@@ -32,7 +32,7 @@
 		height: 1000px;
 		bottom: 0;
 		background: #000;
-		color: #fff;
+		color: #03A9F4;
 		border: 1px solid #333;
 		font-family: Oswald;
 		option {
@@ -42,7 +42,7 @@
 			}
 			&.depth-1 {
 				padding-left: 30px;
-				color: rgba(255, 255, 255, 0.6);
+				color: rgba(255, 255, 255, 0.8);
 				position: relative;
 				&:before {
 					content: '↳';
@@ -95,11 +95,11 @@
 		position: absolute;
 		left: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, 0.8);
+		background: rgba(0, 0, 0, 1);
 		padding: 5px;
 		border-radius: 0 5px 0 0;
 		&:hover {
-			color: #ffa;
+			color: white;
 		}
 	}
 	.reset {

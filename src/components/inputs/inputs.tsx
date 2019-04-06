@@ -96,15 +96,6 @@ export default class Inputs extends React.Component<IProps, {}> {
 						/>
 					)}
 				</div>
-				{this.props.settings.subSettings.steeringInput.enabled && (
-					<SvgIcon
-						className="steeringWheel"
-						src={require('./../../img/icons/wheel.svg')}
-						style={{
-							transform: `rotate(${this.wheelTurn}deg)`
-						}}
-					/>
-				)}
 			</div>
 		);
 	}

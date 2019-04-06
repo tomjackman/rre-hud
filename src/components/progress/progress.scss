@@ -83,7 +83,7 @@
 		.bad {
 			border-right: 1px solid black;
 			right: 50%;
-			background: #C62828;
+			background: red;
 		}
 	}
 
@@ -94,7 +94,7 @@
 	}
 	&.overallLoosing {
 		.estimate {
-			color: #C62828;
+			color: red;
 		}
 	}
 	&.race {
