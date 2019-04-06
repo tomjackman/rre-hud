@@ -1,38 +1,42 @@
 .motec {
-	border-radius: 50px;
+	border-radius: 2px;
 	display: none;
 	&.shouldShow {
 		display: block;
 	}
 	position: absolute;
-	bottom: 40px;
-	right: 20px;
-	padding: 10px;
-	background: black;
-	width: 85px;
-	height: 80px;
-	transform-origin: bottom right;
-	border-bottom: 20px solid red;
 	.speed {
 		position: absolute;
-		font-size: 20px;
+		font-size: 16px;
 		bottom: -19px;
 		position: absolute;
-		left: 50%;
+		left: 25px;
+		background: #1565C0;
 		color: white;
-		border-radius: 200px;
-		width: 85px;
+		border-radius: 2px;
+		width: 35px;
 		text-align: center;
-		transform: translate(-50%, 0);
+		transform: translate(-50%, 0) skew(-20deg);
 	}
 	.rpm {
 		position: absolute;
+		border-radius: 2px;
 		bottom: -40px;
 		left: 1px;
 		right: 3px;
-		width: 85px;
+		width: 80px;
 		background: white;
+		transform: skew(-20deg);
+		.rpmLabel {
+			color: black;
+			position: absolute;
+			font-size: 13px;
+			line-height: 14px;
+			left: 10px;
+			transform: skew(20deg);
+		}
 		.rpmBar {
+			border-radius: 2px;
 			background: red;
 			height: 15px;
 		}
@@ -54,12 +58,15 @@
 		}
 	}
 	.gear {
-		font-size: 55px;
+		font-size: 30px;
 		position: absolute;
-		left: 50%;
-		transform: translate(-50%, 0);
+		background: black;
+		border-radius: 2px;
+		padding: 5px;
+		left: -10px;
+		top: 0px;
+		transform: translate(-50%, 0) skew(-20deg);
 		color: white;
-		top: 1px;
 		line-height: 1;
 	}
 }

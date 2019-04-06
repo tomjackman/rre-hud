@@ -4,14 +4,14 @@
 	left: 50%;
 	.inner {
 		transform: translate(-50%, 0);
-		padding: 5px;
 		background: black;
 		transform: skew(-20deg);
+		border-radius: 2px;
 	}
 	.aid {
 		display: inline-block;
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 2px;
+		margin-right: 2px;
 		fill: white;
 		transform: skew(+20deg);
 		&.state-5 {
@@ -22,8 +22,8 @@
 	}
 	.svgIcon {
 		svg {
-			height: 20px;
-			width: 20px;
+			height: 13px;
+			width: 13px;
 		}
 	}
 }

@@ -2,6 +2,7 @@ declare const styles: {
   readonly "inputs": string;
   readonly "low": string;
   readonly "barContainer": string;
+  readonly "inputLabel": string;
   readonly "bar": string;
   readonly "clutchPedal": string;
   readonly "brakePedal": string;

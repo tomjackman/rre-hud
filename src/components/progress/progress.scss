@@ -66,8 +66,6 @@
 		top: 25px;
 		height: 21px;
 		width: 300px;
-		border: 1px solid black;
-		background: white;
 		.good,
 		.bad {
 			height: 100%;
@@ -109,7 +107,7 @@
 		width: 100%;
 		.sector {
 			height: 5px;
-			background: rgb(41, 41, 41);
+			background: grey;
 			display: inline-block;
 			width: 10%;
 			position: relative;
@@ -139,7 +137,7 @@
 				background: #9C27B0;
 			}
 			&.inactive {
-				background: rgb(0, 0, 0);
+				background: white;
 			}
 		}
 	}

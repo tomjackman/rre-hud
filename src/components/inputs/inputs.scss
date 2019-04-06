@@ -5,19 +5,27 @@
 	top: 940px;
 	left: 1690px;
 	margin-right: 70px;
-	width: 46px;
+	width: 40px;
 	&.low {
 		background: rgba(255, 0, 0, 0.2);
 	}
 	.barContainer {
 		background: white;
-		height: 15px;
-		width: 100px;
+		border-radius: 2px;
+		height: 14px;
+		width: 90px;
 		display: inline-block;
 		position: relative;
 		transform: skew(-20deg);
-		font-size: 15px;
-		color: black;
+		font-size: 8px;
+		.inputLabel {
+			color: black;
+			transform: skew(+20deg);
+			position: relative;
+			left: 8px;
+			font-size: 14px;
+			z-index: 5;
+		}
 		.bar {
 			position: absolute;
 			bottom: 0;
@@ -26,6 +34,8 @@
 			background-color: red;
 			height: 100%;
 			width: 100%;
+			transform: skew(0deg);
+			border-radius: 2px;
 		}
 		.clutchPedal {
 			background: #03A9F4;

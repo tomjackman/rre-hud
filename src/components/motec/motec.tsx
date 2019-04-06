@@ -89,6 +89,7 @@ export default class Motec extends React.Component<IProps, {}> {
 
 				{/* RPM */}
 				<div className="rpm">
+				<div className="rpmLabel">RPM {Math.round(this.rpm)}</div>
 					<div
 						className="rpmBar"
 						style={{

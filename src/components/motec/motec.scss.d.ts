@@ -3,6 +3,7 @@ declare const styles: {
   readonly "shouldShow": string;
   readonly "speed": string;
   readonly "rpm": string;
+  readonly "rpmLabel": string;
   readonly "rpmBar": string;
   readonly "rpmOptimum": string;
   readonly "gear": string;

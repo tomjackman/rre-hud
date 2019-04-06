@@ -6,6 +6,7 @@
 	left: 1750px;
 	margin-right: 10px;
 	.wheel {
+		border-radius: 2px;
 		width: 31px;
 		height: 46px;
 		float: left;
@@ -55,14 +56,16 @@
 			right: 3px;
 			bottom: 3px;
 			border: 1px solid white;
+			border-radius: 2px;
 		}
 		.tireDirtOverlay {
+			border-radius: 4px;
 			position: absolute;
 			top: 2px;
 			left: 2px;
 			right: 2px;
 			bottom: 2px;
-			border: 2px solid red;
+			border: 2px solid #FF9800;
 		}
 		.brake {
 			position: absolute;
@@ -74,10 +77,14 @@
 			&.frontLeft,
 			&.rearLeft {
 				left: -4px;
+				border-top-left-radius: 2px;
+				border-bottom-left-radius: 2px;
 			}
 			&.frontRight,
 			&.rearRight {
 				right: -4px;
+				border-top-right-radius: 2px;
+				border-bottom-right-radius: 2px;
 			}
 		}
 		.tireWearContainer {

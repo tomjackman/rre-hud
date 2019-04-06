@@ -1,6 +1,6 @@
 .fuel {
 	padding: 5px;
-	height: 20px;
+	height: 10px;
 	position: absolute;
 	top: 940px;
 	left: 1660px;
@@ -8,7 +8,8 @@
 	width: 200px;
 	.barContainer {
 		background: red;
-		height: 30px;
+		border-radius: 2px;
+		height: 10px;
 		width: 100%;
 		display: inline-block;
 		position: relative;
@@ -20,6 +21,8 @@
 			right: 0;
 			width: 100%;
 			background: #00E676;
+			border-radius: 2px;
+			z-index: 5;
 			&:after {
 				position: relative;
 				display: block;
@@ -51,22 +54,23 @@
 			}
 		}
 	}
-	width: 100px;
+	width: 70px;
 	right: 150px;
 	padding-bottom: 30px;
 	.barContainer {
 		top: 10px;
-		height: 13px;
+		height: 8px;
 	}
 	.svgIcon {
-		height: 12px;
-		width: 12px;
+		height: 5px;
+		width: 5px;
 		position: absolute;
-		top: 85%;
-		left: 50%;
+		top: 80%;
+		left: 18%;
 		margin-top: -10px;
 		margin-left: 1px;
 		transform: translate(-50%, -50%);
+		z-index: 10;
 		svg {
 			fill: white;
 		}
@@ -78,6 +82,7 @@
 		left: -5px;
 		right: -5px;
 		text-align: center;
+		border-radius: 2px;
 		height: 15px;
 		line-height: 15px;
 		width: 20px;
@@ -87,12 +92,12 @@
 		background-color: white;
 		color: black;
 		top: 15px;
-		left: -14px;
+		left: -16px;
 	}
 	.fuelLeft {
 		color: white;
 		background-color: black;
 		bottom: 5px;
-		left: 93px;
+		left: 68px;
 	}
 }
